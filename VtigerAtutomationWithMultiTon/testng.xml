@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Vtiger CRM Test Automation Test Suite" verbose="2">
+
+     <groups>
+     <run>
+     <include name="smoke"></include>
+     </run>
+     </groups>
+
+	<test name="Vtiger Test Cases" preserve-order="true">
+	<parameter name="Browser" value="ch"></parameter>
+		<classes>
+			<class name="org.wvs.vtiger.tests.TestLoginPage"></class>
+			<class name="org.wvs.vtiger.tests.TestHomePage"></class>
+			<class name="org.wvs.vtiger.tests.TestAccountPage"></class>
+			<class name="org.wvs.vtiger.tests.TestCreateAccountPage"></class>
+			<class name="org.wvs.vtiger.tests.TestAccountDetailpage"></class>
+
+		</classes>
+	</test>
+	
+	<!--  test name="Vtiger Test Cases" preserve-order="true">
+	<parameter name="Browser" value="ch"></parameter>
+		<classes>
+			<class name="org.wvs.vtiger.tests.TestScripts"></class>
+			
+
+		</classes>
+	</test-->
+	
+</suite>

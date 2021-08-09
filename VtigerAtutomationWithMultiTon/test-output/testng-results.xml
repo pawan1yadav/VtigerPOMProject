@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Vtiger CRM Test Automation Test Suite" duration-ms="10" started-at="2021-08-05T11:13:07Z" finished-at="2021-08-05T11:13:07Z">
+    <groups>
+    </groups>
+    <test name="Vtiger Test Cases" duration-ms="10" started-at="2021-08-05T11:13:07Z" finished-at="2021-08-05T11:13:07Z">
+    </test> <!-- Vtiger Test Cases -->
+  </suite> <!-- Vtiger CRM Test Automation Test Suite -->
+</testng-results>
