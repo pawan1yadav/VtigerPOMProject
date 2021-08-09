@@ -72,9 +72,9 @@ public class LoginPage extends BasePage  {
 	
 	public  void invalidLogin() {
 		
-		wu .sendKeys(weUser, "admin", "UserName");
-		
-		wu .click(weLogin, "loginBtn");
+//		wu .sendKeys(weUser, "admin", "UserName");
+//		
+//		wu .click(weLogin, "loginBtn");
 		
 	}
 	
